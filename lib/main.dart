@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:google_fonts/google_fonts.dart';
 import 'package:whatsapp_clone/whatsapp_page.dart';
 
 void main() {
@@ -16,6 +15,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         // useMaterial3: false,
         textTheme: GoogleFonts.interTextTheme(),
+        // colorScheme: const ColorScheme.dark(),
       ),
       home: const WhatsappPage(),
       debugShowCheckedModeBanner: false,
